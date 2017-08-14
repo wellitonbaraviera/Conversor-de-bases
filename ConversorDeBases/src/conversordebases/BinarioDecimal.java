@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class BinarioDecimal {
 
-    public static void main(String[] args) {
+    public void binarioDecimal(){
         Scanner leitor = new Scanner(System.in);
         String entrada = leitor.next();
         int potencia = 0;
