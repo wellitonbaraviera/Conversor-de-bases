@@ -5,10 +5,25 @@
  */
 package conversordebases;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
 /**
  *
  * @author welliton
  */
 public class OctalDecimal {
+    public void octalDecimal()
+   // public static void main(String[] args) 
+        
     
+             throws Exception
+
+    {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Entrar com numero octal: ");
+        int no = Integer.parseInt(reader.readLine(), 8);
+        System.out.println("Decimal: " + no);
+
+    }
 }
